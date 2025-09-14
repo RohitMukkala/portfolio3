@@ -39,9 +39,9 @@ export default function ContactMenu() {
       message: "Message: " + DOMPurify.sanitize(message),
     };
 
-    const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-    const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-    const userID = process.env.REACT_APP_EMAILJS_USER_ID;
+    const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE;
+    const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+    const userID = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
     emailjs
       .send(serviceID, templateID, sanitizedData, userID)
