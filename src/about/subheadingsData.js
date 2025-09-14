@@ -5,9 +5,11 @@ const subheadingsData = {
       content: (
         <>
           <p>
-            Fueling ideas with innovation, I craft intelligent systems and
-            seamless experiences, blending logic with creativity to solve
-            real-world challenges and inspire progress.
+            Passionate about building intelligent systems that bridge data,
+            design, and decision-making. I thrive at the intersection of AI/ML
+            and web development — crafting real-world solutions that are as
+            impactful as they are innovative. Always eager to learn, experiment,
+            and push boundaries through hands-on projects.
           </p>
         </>
       ),
