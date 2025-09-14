@@ -9,8 +9,8 @@ const skills = {
       level: 5,
     },
     {
-      title: "SASS",
-      level: 2,
+      title: "Bootstrap 5",
+      level: 5,
     },
     {
       title: "JavaScript",
@@ -22,14 +22,14 @@ const skills = {
     },
     {
       title: "Tailwind CSS",
-      level: 1,
+      level: 5,
     },
     {
       title: "React JS",
-      level: 3,
+      level: 5,
     },
     {
-      title: "Figma",
+      title: "Framer Motion",
       level: 4,
     },
   ],
@@ -39,28 +39,32 @@ const skills = {
       level: 5,
     },
     {
-      title: "Node.js",
-      level: 4,
+      title: "FastAPI",
+      level: 6,
     },
     {
       title: "MongoDB",
-      level: 2,
-    },
-    {
-      title: "Git",
       level: 4,
     },
     {
-      title: "PHP",
-      level: 1,
+      title: "Git",
+      level: 5,
     },
     {
-      title: "SQL",
-      level: 3,
+      title: "Flask",
+      level: 5,
     },
     {
-      title: "Express.js",
-      level: 3,
+      title: "MySQL",
+      level: 6,
+    },
+    {
+      title: "Alembic",
+      level: 4,
+    },
+    {
+      title: "JWT (python-jose)",
+      level: 5,
     },
   ],
 };
