@@ -21,10 +21,11 @@ const subheadingsData = {
       content: (
         <>
           <p>
-            Pursuing my B.Tech in Computer Science Engineering (CSE), where I am
-            expanding my expertise in software development, algorithms, data
-            structures, and emerging technologies, preparing to contribute
-            meaningfully to the tech industry.
+            Currently pursuing my B.Tech at VIT, building strong foundations in
+            algorithms, data structures, machine learning, and full-stack
+            development. Actively applying concepts through personal projects,
+            hackathons, and open-source contributions to prepare for impactful
+            roles in tech.
           </p>
         </>
       ),
@@ -45,43 +46,42 @@ const subheadingsData = {
   ],
   3: [
     {
-      title: "2024 Business Development Intern",
+      title: "Business Development Intern — Younity (2024)",
       content: (
         <>
           <p>
-            Developed business strategies, streamlined communication processes,
-            and built client relationships to improve business outcomes during
-            my internship at Younity.in.
+            Contributed to business strategy and client engagement, while
+            streamlining communication processes to improve outcomes. This role
+            strengthened my leadership, teamwork, and cross-functional
+            collaboration skills, which now influence my approach to project
+            development in technology.
           </p>
         </>
       ),
     },
     {
-      title: "2024 AI/ML Intern",
+      title: "2024 AI/ML Intern (YBI Foundation)",
       content: (
         <>
           <p>
-            During my internship at YBI Foundation, I enhanced my web
-            development skills by integrating machine learning models into web
-            applications, improving my backend and API development expertise.
-            This experience helped me create data-driven, efficient web
-            solutions, strengthening my ability to build dynamic and responsive
-            applications.
+            Enhanced my expertise in machine learning and web development by
+            integrating ML models into web applications. Gained hands-on
+            experience in TensorFlow/Keras, backend integration, and API
+            development to build data-driven, efficient, and responsive
+            solutions.
           </p>
         </>
       ),
     },
     {
-      title: "2023 Web Developer & Game Builder (Practice Projects)",
+      title: "Web Developer — InternPe (2024)",
       content: (
         <>
           <p>
-            Developed several practice web applications, including a To-Do List
-            App, Calculator, and a game platform with PIG Game, Connect 4, and
-            Guess My Number. Additionally, I built a responsive Ecommerce
-            Website front-end, refining my skills in React.js, Node.js, and
-            MongoDB, and strengthening my understanding of full-stack
-            development.
+            Built multiple interactive applications, including a Calculator,
+            Ecommerce Website, To-Do List, and Connect 4 game. Recognized with a
+            Letter of Recommendation for consistently delivering high-quality
+            work.
           </p>
         </>
       ),
