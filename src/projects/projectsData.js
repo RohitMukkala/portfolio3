@@ -26,8 +26,8 @@ const projects = {
       <>
         <p>
           An AI-powered platform that analyzes coding profiles from LeetCode,
-          GitHub, and Codeforces to give personalized problem recommendations
-          and auto-generate updated resumes.
+          GitHub, and Codeforces to provide personalized problem recommendations
+          and assist in generating updated resumes.
         </p>
       </>
     ),
