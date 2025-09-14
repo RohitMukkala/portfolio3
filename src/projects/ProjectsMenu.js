@@ -24,12 +24,16 @@ export default class ProjectsMenu extends Component {
         <img src={project.image} alt={project.title}></img>
         <div>{project.description}</div>
         <div className="link-container">
-          <a href={project.github} target="_blank" rel="noopener noreferrer">
-            GITHUB
-          </a>
-          <a href={project.demo} target="_blank" rel="noopener noreferrer">
-            DEMO
-          </a>
+          {project.github && (
+            <a href={project.github} target="_blank" rel="noopener noreferrer">
+              GITHUB
+            </a>
+          )}
+          {project.demo && (
+            <a href={project.demo} target="_blank" rel="noopener noreferrer">
+              DEMO
+            </a>
+          )}
         </div>
       </div>
     ));
@@ -37,7 +41,12 @@ export default class ProjectsMenu extends Component {
 
   render() {
     const { activeProject } = this.state;
-    const projectItems = ["PROJECT ONE", "PROJECT TWO", "PROJECT THREE"];
+    const projectItems = [
+      "PROJECT ONE",
+      "PROJECT TWO",
+      "PROJECT THREE",
+      "PROJECT FOUR",
+    ];
 
     return (
       <div className="project-menu">

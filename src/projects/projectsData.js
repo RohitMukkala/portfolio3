@@ -1,49 +1,66 @@
 import projectOne from "../assets/project-1.png";
 import projectTwo from "../assets/project-2.png";
 import projectThree from "../assets/project-3.png";
+import projectFour from "../assets/project-4.png";
 
 const projects = {
   1: {
-    title: "SoMe Platform",
+    title: "Jarvis – AI Voice Assistant",
     image: projectOne,
     description: (
       <>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          A voice-controlled AI assistant that predicts heart disease using a
+          TensorFlow classifier and automates desktop tasks. Includes Face ID
+          authentication with OpenCV for secure access.
         </p>
       </>
     ),
-    github: "https://github.com",
-    demo: "https://netlify.com",
+    github: "https://github.com/RohitMukkala/jarvis",
+    demo: "https://jarvis-one-teal.vercel.app",
   },
   2: {
-    title: "Productivity App",
+    title: "SmartCoder – Coding & Resume Assistant",
     image: projectTwo,
     description: (
       <>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          An AI-powered platform that analyzes coding profiles from LeetCode,
+          GitHub, and Codeforces to give personalized problem recommendations
+          and auto-generate updated resumes.
         </p>
       </>
     ),
-    github: "https://github.com",
-    demo: "https://netlify.com",
+    github: "https://github.com/RohitMukkala/codingJourney",
+    demo: "https://coding-journey-9rlm.vercel.app",
   },
   3: {
-    title: "Food Delivery App",
+    title: "Pestopia – AI Pest Detection",
     image: projectThree,
     description: (
       <>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          A deep learning-based system that detects pests and crop diseases from
+          plant images, providing farmers with instant diagnosis, prevention
+          tips, and treatment recommendations to reduce crop damage.
         </p>
       </>
     ),
-    github: "https://github.com",
-    demo: "https://netlify.com",
+    github: "https://github.com/your-username/Pestopia",
+  },
+  4: {
+    title: "StoryToKG – Knowledge Graph Builder",
+    image: projectFour,
+    description: (
+      <>
+        <p>
+          Converts stories into structured knowledge graphs to maintain
+          character consistency across scenes, enabling AI models to reason
+          about relationships, timelines, and narrative logic effectively.
+        </p>
+      </>
+    ),
+    github: "https://github.com/your-username/StoryToKG",
   },
 };
 
